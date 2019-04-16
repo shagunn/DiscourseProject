@@ -8,7 +8,8 @@ Task 1: Next EDU Prediction
 - 3 Next EDU Prediction Analysis.ipynb: analysis/plots for next EDU prediction
 
 Task 2: RST Relation Classification
-- < > preprocessing RST-DT to obtain EDU pair - relation 
+- For preprocessing we use the Educe open source library (follow Installation Instructions for setup: https://educe.readthedocs.io/en/latest/rst-dt.html)
+- RST Relation Classification Preprocessing.ipynb: preprocessing RST-DT to obtain EDU pairs with corresponding relations and relation classes
 - run_classifier_rst.py - file to fine tune and evaluate BERT. Details on how to train the classifier are included below.
 - RST Relation Classification Analysis.ipynb: analysis/plots for relation prediction 
 
