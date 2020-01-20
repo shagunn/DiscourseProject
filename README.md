@@ -27,7 +27,7 @@ Data is derived from the main directory (RSTtrees-WSJ-main-1.0) of the RST Disco
 1. create folder called `relation_data` and add the csv files to it
 2. create folder called `rst_model_base` (the tuned model will be saved here)
 3. run:
-```python
-$python run_classifier_rst.py --data_dir relation_data/ --bert_model bert-base-uncased --task_name rst --output_dir rst_model_base --max_seq_length 384 --do_lower_case --do_train
+```
+python run_classifier_rst.py --data_dir relation_data/ --bert_model bert-base-uncased --task_name rst --output_dir rst_model_base --max_seq_length 384 --do_lower_case --do_train
 ```
 4. replace `--do_train` with `--do_eval` for testing
