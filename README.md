@@ -4,6 +4,11 @@ Rhetorical Structure Theory (RST) is an explanatory theory for discourse parsing
 
 ## File Descriptions 
 
+#### Data
+Data is derived from the main directory (RSTtrees-WSJ-main-1.0) of the RST Discourse Treebank. For more details please see the paper above
+1. `training.csv`: data used to train models
+2. `test.csv`: data used for testing
+
 #### Task 1: Next EDU Prediction
 1. `1 Next EDU Preprocessing.ipynb`: preprocessing RST-DT to generate adjacent EDU pairs
 2. `2 Next EDU Prediction.ipynb`: runs BertForNextSentencePrediction Model
