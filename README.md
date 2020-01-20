@@ -4,23 +4,26 @@ Rhetorical Structure Theory (RST) is an explanatory theory for discourse parsing
 
 ## File Descriptions 
 
-#### Data
+### Data
 Data is derived from the main directory (RSTtrees-WSJ-main-1.0) of the RST Discourse Treebank. For more details please see the paper above
 1. `training.csv`: data used to train models
 2. `test.csv`: data used for testing
 
-#### Task 1: Next EDU Prediction
+
+### Task 1: Next EDU Prediction
 1. `1 Next EDU Preprocessing.ipynb`: preprocessing RST-DT to generate adjacent EDU pairs
 2. `2 Next EDU Prediction.ipynb`: runs BertForNextSentencePrediction Model
 3. `3 Next EDU Prediction Analysis.ipynb`: analysis/plots for next EDU prediction
 
-#### Task 2: RST Relation Classification
+
+### Task 2: RST Relation Classification
 1. For preprocessing we use the [Educe open source library](https://educe.readthedocs.io/en/latest/rst-dt.html)) (follow Installation Instructions for setup)
 2. `RST Relation Classification Preprocessing.ipynb`: preprocessing RST-DT to obtain EDU pairs with corresponding relations and relation classes
 3. `run_classifier_rst.py`: fine tune and evaluate BERT. Details on how to train the classifier are included in the section below.
 4. `RST Relation Classification Analysis.ipynb`: analysis/plots for relation prediction 
 
-#### To run the RST Relation Classifer:
+
+### To run the RST Relation Classifer:
 1. create folder called `relation_data` and add the csv files to it
 2. create folder called `rst_model_base` (the tuned model will be saved here)
 3. run:
