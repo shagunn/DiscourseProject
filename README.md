@@ -18,7 +18,7 @@ Data is derived from the main directory (RSTtrees-WSJ-main-1.0) of the RST Disco
 
 
 ### Task 2: RST Relation Classification
-1. For preprocessing we use the [Educe open source library](https://educe.readthedocs.io/en/latest/rst-dt.html)) (follow Installation Instructions for setup)
+1. For preprocessing we use the [Educe open source library](https://educe.readthedocs.io/en/latest/rst-dt.html) (follow Installation Instructions for setup)
 2. `RST Relation Classification Preprocessing.ipynb`: preprocessing RST-DT to obtain EDU pairs with corresponding relations and relation classes
 3. `run_classifier_rst.py`: fine tune and evaluate BERT. Details on how to train the classifier are included in the section below.
 4. `RST Relation Classification Analysis.ipynb`: analysis/plots for relation prediction 
